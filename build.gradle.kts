@@ -19,6 +19,8 @@ apply<KorgeGradlePlugin>()
 
 korge {
 	id = "com.jhovanni.korge-example"
+	dependencyMulti("com.jhovanni.library.example:lib:0.1.0", registerPlugin = false)
+
 // To enable all targets at once
 
 	//targetAll()
